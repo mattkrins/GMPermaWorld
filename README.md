@@ -33,6 +33,9 @@ To remove all persistent world entities from the map, run: **PermaWorld_CleanMap
  
 If you do not know how to open the console or run a console command, please read [this article](https://developer.valvesoftware.com/wiki/Developer_Console).
 
+#### Links:
+[Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=622773812)
+
 #### Support:
 **Please direct all your questions to the GitHub issue tracker:** 
 https://github.com/mattkrins/GMPermaWorld/issues

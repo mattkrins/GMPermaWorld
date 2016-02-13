@@ -9,7 +9,8 @@ It is a highly modified version of a [script](https://facepunch.com/showthread.p
 
 #### Installation:
 Simple place the file sv_PermaWorld.lua into your *garrysmod/lua/autorun/server/* folder.
-You could also put it into a gamemode module if the code supports it. Example: *gamemodes/DarkRP/gamemode/modules/permaworld/sv_PermaWorld.lua*
+
+You could also put it into a gamemode module if the code supports it. For example: *gamemodes/DarkRP/gamemode/modules/permaworld/sv_PermaWorld.lua*
 
 #### Configuration:
 - DBprefix \> *SQL database name prefix. Default: "gmpw"*

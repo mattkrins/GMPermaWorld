@@ -35,6 +35,7 @@ If you do not know how to open the console or run a console command, please read
 
 #### Links:
 [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=622773812)
+[Garrysmods.org](https://garrysmods.org/download/57312/gmpermaworld)
 
 #### Support:
 **Please direct all your questions to the GitHub issue tracker:** 

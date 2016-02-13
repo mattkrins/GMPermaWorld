@@ -12,17 +12,22 @@ Simple place the file sv_PermaWorld.lua into your *garrysmod/lua/autorun/server/
 You could also put it into a gamemode module if the code supports it. Example: *gamemodes/DarkRP/gamemode/modules/permaworld/sv_PermaWorld.lua*
 
 #### Configuration:
-*DBprefix \> *What the server SQL database name will be prefixed with. Default: "gmpw"*
-*LoadOnStart \> *Change this to false if you don't want the database to be auto-loaded when you start a game/server. Default: true*
-*SaveIndicator \> *Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database. Default: false*
-*DeleteOnRemove \> *Change this to true if you want entities to delete from the map after removal from database (purge included). Default: false*
+- DBprefix \> *What the server SQL database name will be prefixed with. Default: "gmpw"*
+- LoadOnStart \> *Change this to false if you don't want the database to be auto-loaded when you start a game/server. Default: true*
+- SaveIndicator \> *Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database. Default: false*
+- DeleteOnRemove \> *Change this to true if you want entities to delete from the map after removal from database (purge included). Default: false*
 
 #### Usage:
-To add an entity you wish to make persistent to the database, simply look at it and run the console command **PermaWorld_Add**
-To make an entity no-longer persistent and remove it from the database, simply look at it and run the console command **PermaWorld_Remove**
-If you need to reload the persistent entities for any reason (see: accidental deletion), run the console command **PermaWorld_Restore**
-To purge the persistent world database of all entities, run the console command **PermaWorld_Purge**
-To remove all persistent world entities from the map, run the console command **PermaWorld_CleanMap**
+To add an entity you wish to make persistent to the database, look at it and run: **PermaWorld_Add**
+
+To make an entity no-longer persistent and remove it from the database, look at it and run: **PermaWorld_Remove**
+
+To reload the persistent entities for any reason (see: accidental deletion), run: **PermaWorld_Restore**
+
+To purge the persistent world database of all entities, run: **PermaWorld_Purge**
+
+To remove all persistent world entities from the map, run: **PermaWorld_CleanMap**
+
 
 If you do not know how to open the console or run a console command, please read [this article](https://developer.valvesoftware.com/wiki/Developer_Console).
 

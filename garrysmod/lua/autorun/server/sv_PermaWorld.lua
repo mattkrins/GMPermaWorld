@@ -1,6 +1,7 @@
---[[ Original script written by FPtje (for Eusion). Modified/Enhanced by StealthPaw/101kl. --]]
+--[[ Original script written by FPtje (for Eusion): https://facepunch.com/showthread.php?t=735138. --]]
+--[[ Modified/Enhanced by StealthPaw/101kl. --]]
 
-local DBprefix = "merp" -- What the SQL database name will be prefixed with.
+local DBprefix = "gmpw" -- What the server SQL database name will be prefixed with.
 local LoadOnStart = true -- Change this to false if you don't want the database to be auto-loaded when you start a game/server.
 local SaveIndicator = false -- Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database.
 local DeleteOnRemove = false -- Change this to true if you want entities to delete from the map after removal from database (purge included).

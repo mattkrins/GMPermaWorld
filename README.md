@@ -5,17 +5,17 @@
 #### About:
 Garry's Mod by default has a built in function to make persistent entities however the feature only works in Sandbox and Sandbox derived gamemodes.
 GMPermaWorld or Permanent World is a simple script to keep entities persistent on a game/server without using Sandbox.
-It is a highly modified version of a script written by FPtje in 2009.
+It is a highly modified version of a [script](https://facepunch.com/showthread.php?t=735138) written by FPtje in 2009.
 
 #### Installation:
 Simple place the file sv_PermaWorld.lua into your *garrysmod/lua/autorun/server/* folder.
 You could also put it into a gamemode module if the code supports it. Example: *gamemodes/DarkRP/gamemode/modules/permaworld/sv_PermaWorld.lua*
 
 #### Configuration:
-- DBprefix \> *What the server SQL database name will be prefixed with. Default: "gmpw"*
-- LoadOnStart \> *Change this to false if you don't want the database to be auto-loaded when you start a game/server. Default: true*
-- SaveIndicator \> *Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database. Default: false*
-- DeleteOnRemove \> *Change this to true if you want entities to delete from the map after removal from database (purge included). Default: false*
+- DBprefix \> *SQL database name prefix. Default: "gmpw"*
+- LoadOnStart \> *Auto-load entities when you start a game/server. Default: true*
+- SaveIndicator \> *Flash entities green/red on addition/removal to/from the database. Default: false*
+- DeleteOnRemove \> *Delete entities from the map after removal from database. Default: false*
 
 #### Usage:
 To add an entity you wish to make persistent to the database, look at it and run: **PermaWorld_Add**
@@ -27,8 +27,9 @@ To reload the persistent entities for any reason (see: accidental deletion), run
 To purge the persistent world database of all entities, run: **PermaWorld_Purge**
 
 To remove all persistent world entities from the map, run: **PermaWorld_CleanMap**
-
-
+ 
+ 
+ 
 If you do not know how to open the console or run a console command, please read [this article](https://developer.valvesoftware.com/wiki/Developer_Console).
 
 #### Support:

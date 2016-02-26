@@ -110,6 +110,8 @@ local function PW_Restore(ply)
 				ent:SetModel(v.model)
 				FreezeEnt(ent)
 				ent.PermaWorld = tonumber(v.unid)
+				ent:Spawn()
+				ent:Activate()
 			end
 		end
 	end)

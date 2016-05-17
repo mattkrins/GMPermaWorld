@@ -3,7 +3,7 @@
 
 local DBprefix = "gmpw" -- What the server SQL database name will be prefixed with.
 local LoadOnStart = true -- Change this to false if you don't want the database to be auto-loaded when you start a game/server.
-local SaveIndicator = false -- Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database.
+local SaveIndicator = true -- Change this to true if you want entities to quickly flash green/red, indicating they have been successfully added/removed to the database.
 local DeleteOnRemove = false -- Change this to true if you want entities to delete from the map after removal from database (purge included).
 
 if CLIENT then return end
@@ -108,10 +108,10 @@ local function PW_Restore(ply)
 				if tonumber(v.alpha) < 255 then ent:SetRenderMode( 1 ) end
 				ent:SetColor(Color(tonumber(v.red), tonumber(v.green), tonumber(v.blue), tonumber(v.alpha)))
 				ent:SetModel(v.model)
-				FreezeEnt(ent)
 				ent.PermaWorld = tonumber(v.unid)
 				ent:Spawn()
 				ent:Activate()
+				FreezeEnt(ent)
 			end
 		end
 	end)

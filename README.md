@@ -29,12 +29,11 @@ To purge the persistent world database of all entities, run: **PermaWorld_Purge*
 
 To remove all persistent world entities from the map, run: **PermaWorld_CleanMap**
 
+*If you do not know how to open the console or run a console command, please read [this article](https://developer.valvesoftware.com/wiki/Developer_Console).*
+
 #### Notes:
 - If the colour or material of an entity has been modified it will keep these changes. 
 - I have added a toolgun for ease of use when using sandbox derived gamemodes. 
- 
- 
-If you do not know how to open the console or run a console command, please read [this article](https://developer.valvesoftware.com/wiki/Developer_Console).
 
 #### Links:
 [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=622773812)

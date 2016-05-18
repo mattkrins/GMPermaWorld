@@ -29,6 +29,7 @@ local function FreezeEnt(ent)
 	ent:SetMoveType(MOVETYPE_NONE)
 	local phys = ent:GetPhysicsObject()
 	if phys and phys:IsValid() then phys:EnableMotion(false) end
+	ent:SetOwner( game.GetWorld() or NULL )
 end
 
 local function PW_CleanWorld(ply)
